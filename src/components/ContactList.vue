@@ -22,7 +22,7 @@
       :class="{ active: index === activeIndex }"
       @click="updateActiveIndex(index)"
     >
-    {{ contact.name }}
+      {{ contact.name }}
     </li>
   </ul>
 </template>
